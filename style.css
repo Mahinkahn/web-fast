@@ -1,34 +1,88 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    color: dimgray;
+}
 .name{
     color: orange;
 
   }
 
-.button{
-   background-color:violet;
-   padding: 10px 10px;
-   color: seashell;
-   text-decoration: none;
-   padding: 15px 32px;
-  text-align: center;
-  margin-left: 5%;
-   
+.top-img{
+    background-image:url(imges/top-banner.png);
+    background-repeat: no-repeat;
 }
 
-.hafe{
+section {
+    height: 600px;
+    padding-bottom: 80px;
+}
+
+.button{
+   background-color:violet;
+   padding: 10px 20px;
+   color: seashell;
+   text-decoration: none;
+   border-radius:  10px;
+   font-weight: 700; 
+}
+
+.hafe-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 
-.hafe img{
-    width: 110%;
+.hafe-width img{
+    width: 100%;
 
+}
+
+
+.dream-area{
+    background-image: url(imges/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.singel-experiencs{
+    box-shadow: 30px 30px 50px grey;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+
+.experiencs-area{
+    background-image: url(imges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato );
+    border-image-slice: 1;
+    
+}
+
+#style{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+
+.p{
+    text-align: center;
 }
